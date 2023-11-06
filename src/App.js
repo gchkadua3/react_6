@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './Navbar';
+import Button from './Button';
+import Footer from './Footer'
 
 function App() {
   return (
     <div className="App">
-      <div className="component">
-        <h1>First Component</h1>
-      </div>
+      <Navbar/>
+      <Button/>
+      <Footer/>
     </div>
   );
 }
